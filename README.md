@@ -3,7 +3,7 @@
 <br>
 <h3>Step 1:</h3>
 <p>git clone https://github.com/Kirizakuga/flash-card.git</p>
-<p> or jst download it </p>
+<p> or jst download the release version </p>
 <br>
 <h3>Step 2:</h3>
 <p>Windows:	python -m venv venv</p>
