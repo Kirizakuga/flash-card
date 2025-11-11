@@ -287,12 +287,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Clear client-side state
                 flashcardsData = [];
                 currentCardIndex = 0;
-                questionText.textContent = 'Upload an Excel file to start';
+                questionText.textContent = 'Nhap file excel di';
                 answerText.textContent = 'No answer yet';
                 cardCounter.textContent = '0 / 0';
                 popupOverlay.classList.remove('active');
                 popupBlock.classList.remove('active');
-                uploadBtn.textContent = 'Upload Excel File';
+                uploadBtn.textContent = 'Nhap file excel di';
                 uploadBtn.disabled = false;
                 showToast('Uploaded data reset. You can upload a new file now.', 'info');
             } else {
@@ -331,7 +331,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 uploadBtn.style.backgroundColor = '#10b981';
                 
                 setTimeout(() => {
-                    uploadBtn.textContent = 'Upload Excel File';
+                    uploadBtn.textContent = 'Nhap file excel';
                     uploadBtn.style.backgroundColor = '';
                     uploadBtn.disabled = false;
                 }, 2000);
@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     openButton.addEventListener('click', () => {
         if (flashcardsData.length === 0) {
-            showToast('Please upload an Excel file first!', 'warning');
+            showToast('Da nhap file excel chua :>?', 'warning');
             return;
         }
         
