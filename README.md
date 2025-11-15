@@ -1,4 +1,4 @@
-<h3> in case u have no fkn idea how to install and run this local in your machine</h3>
+<h3> in case u have no idea how to install and run this local in your machine</h3>
 <p>this is the installation guide</p>
 <br>
 <h3>Step 1:</h3>
