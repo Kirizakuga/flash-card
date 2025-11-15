@@ -16,3 +16,5 @@
 <p>pip install -r requirements.txt</p>
 <br>
 <h3>now u can run the proj by app.py or run it by click some button</h3>
+<h2>Important !!!</h2>
+<p>if you have any problem when running the program, before doing anything else, please update all the requirement library in requirements.txt ( just copy all the lib and go ask claude about their lastest version then update all of them in the file -----> save the file and run the pip again, it suppose to work then. If nothing working, you just not the choosen one. PEACE !</p>
