@@ -274,7 +274,6 @@ document.addEventListener('DOMContentLoaded', () => {
         fileInput.click();
     });
 
-    // Clear server-side and client-side flashcard data so user can upload a new file
     resetBtn.addEventListener('click', async () => {
             const ok = await showConfirm('Reset all uploaded data and allow a new upload?', 'Reset data');
             if (!ok) return;
@@ -284,7 +283,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const resp = await fetch('/reset', { method: 'POST' });
             const data = await resp.json();
             if (data.success) {
-                // Clear client-side state
                 flashcardsData = [];
                 currentCardIndex = 0;
                 questionText.textContent = 'Nhap file excel di';
@@ -331,18 +329,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 uploadBtn.style.backgroundColor = '#10b981';
                 
                 setTimeout(() => {
-                    uploadBtn.textContent = 'Nhap file excel';
+                    uploadBtn.textContent = 'Nhập file excel';
                     uploadBtn.style.backgroundColor = '';
                     uploadBtn.disabled = false;
                 }, 2000);
             } else {
                 showToast('Error: ' + data.error, 'error');
-                uploadBtn.textContent = '❌ Upload Failed';
+                uploadBtn.textContent = 'Upload Failed';
                 uploadBtn.disabled = false;
             }
         } catch (error) {
             showToast('Error uploading file: ' + error.message, 'error');
-            uploadBtn.textContent = '❌ Upload Failed';
+            uploadBtn.textContent = 'Upload Failed';
             uploadBtn.disabled = false;
         }
 
