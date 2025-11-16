@@ -1,0 +1,50 @@
+{% extends "core.html" %}
+{% block head %}
+    <title>Index Page</title>
+{% endblock %}
+
+{% block body %}
+    <h1>FLASHCARDS</h1>
+    <div class="floating-message">
+    vì dev quá gà nên vui lòng run localhost 🐔
+    </div>
+    <div class="upload-container">
+        <input type="file" id="fileInput" accept=".xlsx,.xls" style="display: none;">
+        <button id="uploadBtn" class="upload-btn">
+                NHẬP FILE EXCEL
+        </button>
+        <button id="resetBtn" class="reset-btn">RESET DATA</button>
+        <p class="upload-hint">FILE EXCEL NÊN LÀM THEO CẤU TRÚC: | CÂU HỎI | KẾT QUẢ |</p>
+    </div>
+    <button id="btn">
+        START LEARNING
+    </button>
+    
+    <div id="popup-overlay">
+    </div>
+    <div id="popup-block">
+        <div class="flashcard" id="flashcard">
+            <div class="flashcard-inner">
+                <div class="flashcard-front">
+                    <div class="card-content">
+                        <h2>Question</h2>
+                        <p id="question-text">NHAP FILE EXCEL DI</p>
+                    </div>
+                </div>
+                <div class="flashcard-back">
+                    <div class="card-content">
+                        <h2>Answer</h2>
+                        <p id="answer-text">ĐÂY LÀ CÂU HỎI MÀ NASA CHƯA TRẢ LỜI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="navigation">
+            <button id="prevBtn" class="nav-btn">◀ BACK</button>
+            <span id="cardCounter">0 / 0</span>
+            <button id="nextBtn" class="nav-btn">NEXT ▶</button>
+        </div>
+    </div>
+
+{% endblock %}
