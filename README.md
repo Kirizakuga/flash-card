@@ -104,17 +104,6 @@ flash-card/
 2. Mở trình duyệt và truy cập `http://localhost:5000`
 3. Tương tác với flashcard bằng cách click để lật thẻ
 4. Sử dụng các nút điều hướng để chuyển giữa các thẻ
-5. Tùy chỉnh nội dung flashcard bằng cách chỉnh sửa code trong `app.py` hoặc `templates/`
-
-## Kiểm thử & chất lượng mã
-
-| Lệnh                    | Công dụng                                       |
-| ----------------------- | ------------------------------------------------ |
-| `pylint app.py`         | Kiểm tra chất lượng code Python.                |
-| `eslint static/js/`     | Kiểm tra JavaScript code quality.               |
-| `black app.py`          | Format Python code theo chuẩn PEP 8.            |
-
-Khuyến nghị chạy `pylint` trước khi commit code.
 
 ## Ghi chú triển khai
 
