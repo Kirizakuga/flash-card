@@ -155,5 +155,4 @@ Dự án này được phân phối dưới giấy phép MIT. Xem file `LICENSE`
 - Đặc biệt cảm ơn các contributor đã đóng góp vào dự án
 
 ---
-
 **Note:** Nếu bạn thích dự án này, hãy cho một ⭐ trên GitHub để ủng hộ tác giả!
