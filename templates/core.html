@@ -13,7 +13,7 @@
     <h1>if u can read this on the running website, then, the dev of this code is sucks</h1>
     {% endblock %}
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="{{ url_for('static', filename='js/anime.min.js') }}"></script>
     <script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>
 </html>
