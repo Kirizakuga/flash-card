@@ -152,7 +152,7 @@ Dự án này được phân phối dưới giấy phép MIT. Xem file `LICENSE`
 
 - Cảm ơn cộng đồng Python và các thư viện open-source đã hỗ trợ dự án này
 - Lấy cảm hứng từ các ứng dụng flashcard phổ biến như Anki và Quizlet
-- Đặc biệt cảm ơn các contributor đã đóng góp vào dự án
+- Đặc biệt cảm ơn các công cụ đã đóng góp vào dự án cụ thể là claude và gemini
 
 ---
 **Note:** Nếu bạn thích dự án này, hãy cho một ⭐ trên GitHub để ủng hộ tác giả!

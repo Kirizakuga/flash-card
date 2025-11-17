@@ -285,12 +285,12 @@ document.addEventListener('DOMContentLoaded', () => {
             if (data.success) {
                 flashcardsData = [];
                 currentCardIndex = 0;
-                questionText.textContent = 'Nhap file excel di';
-                answerText.textContent = 'No answer yet';
+                questionText.textContent = 'Oops, bro chưa nhập file excel';
+                answerText.textContent = 'No answer yet'
                 cardCounter.textContent = '0 / 0';
                 popupOverlay.classList.remove('active');
                 popupBlock.classList.remove('active');
-                uploadBtn.textContent = 'Nhap file excel di';
+                uploadBtn.textContent = 'Oops, bro chưa nhập file excel';
                 uploadBtn.disabled = false;
                 showToast('Uploaded data reset. You can upload a new file now.', 'info');
             } else {
