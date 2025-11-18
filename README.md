@@ -61,7 +61,7 @@ A lightweight flashcard web application designed to help users memorize vocabula
 ## Chạy ứng dụng
 
 | Lệnh              | Mô tả                                   |
-| ----------------- | ---------------------------------------- |
+| ----------------- | ----------------------------------------|
 | `python app.py`   | Khởi chạy Flask development server.     |
 | `flask run`       | Chạy ứng dụng Flask (alternative).      |
 
